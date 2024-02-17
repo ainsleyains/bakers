@@ -1,5 +1,5 @@
 import bg from '../assets/bg.png';
-import chef from '../assets/chef.png';
+import chef from '../assets/chef.jpg';
 import B from '../assets/B.png';
 import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
