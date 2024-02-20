@@ -1,58 +1,60 @@
 import images from './images';
 
-const wines = [
+const coffees = [
     {
-        title: 'Chapel Hill Shiraz',
-        price: '$56',
-        tags: 'AU | Bottle',
+        title: 'Espresso',
+        price: '$3.55',
+        tags: 'HOT | 8oz',
     },
     {
-        title: 'Catena Malbee',
-        price: '$59',
-        tags: 'AU | Bottle',
+        title: 'Expresso Macchiato',
+        price: '$4.05',
+        tags: 'HOT | 8oz',
     },
     {
-        title: 'La Vieillw Rose',
-        price: '$44',
-        tags: 'FR | 750 ml',
+        title: 'Flat White',
+        price: '$5.65',
+        tags: 'HOT | COLD',
     },
     {
-        title: 'Rhino Pale Ale',
-        price: '$31',
-        tags: 'CA | 750 ml',
+        title: 'Cappuccino',
+        price: '$5.85',
+        tags: 'HOT | COLD',
     },
     {
-        title: 'Irish Guinness',
-        price: '$26',
-        tags: 'IE | 750 ml',
+        title: 'Latte',
+        price: '$5.65',
+        tags: 'HOT | COLD',
     },
 ];
 
-const cocktails = [
+const pastries = [
     {
-        title: 'Aperol Sprtiz',
-        price: '$20',
-        tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+        title: 'Croissant',
+        price: '$4.40',
+        tags: 'Strawberry  | Almond | Chocolate | Cheese',
     },
     {
-        title: "Dark 'N' Stormy",
-        price: '$16',
-        tags: 'Dark rum | Ginger beer | Slice of lime',
+        title: 'Macaron',
+        price: '$6.85',
+        tags: 'Raspberry | Lemon | Salted Caramel',
     },
     {
-        title: 'Daiquiri',
-        price: '$10',
-        tags: 'Rum | Citrus juice | Sugar',
+        title: 'Éclair',
+        price: '$6.75',
+        tags: 'Vanilla | Hazelnut | Pistachio',
     },
+
     {
-        title: 'Old Fashioned',
-        price: '$31',
-        tags: 'Bourbon | Brown sugar | Angostura Bitters',
+        title: 'Cupcake',
+        price: '$5.45',
+        tags: 'Red Velvet | Cookies and Cream | Coffee',
     },
+
     {
-        title: 'Negroni',
-        price: '$26',
-        tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+        title: 'Tart',
+        price: '$5.95',
+        tags: 'Key Lime | Berry | Lemon ',
     },
 ];
 
@@ -79,4 +81,4 @@ const awards = [
     },
 ];
 
-export default { wines, cocktails, awards };
+export default { coffees, pastries, awards };
