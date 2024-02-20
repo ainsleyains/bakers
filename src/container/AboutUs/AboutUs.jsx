@@ -33,30 +33,25 @@ const AboutUs = () => (
                     Know More
                 </button>
             </div>
-            <div className='app__aboutus-content_knife flex__center'>
-                <img
-                    src={images.knife}
-                    alt='about_knife'
-                />
-                <div className='app__aboutus-content_history'>
-                    <h1 className='headtext__cormorant'>Our History</h1>
-                    <img
-                        src={images.mixer}
-                        alt='about_mixer'
-                        className='mixer__img'
-                    />
 
-                    <p className='p__opensans'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, officiis!
-                        Eveniet libero eaque exercitationem veritatis!
-                    </p>
-                    <button
-                        type='button'
-                        className='custom__button'
-                    >
-                        Know More
-                    </button>
-                </div>
+            <div className='app__aboutus-content_history'>
+                <h1 className='headtext__cormorant'>Our History</h1>
+                <img
+                    src={images.mixer}
+                    alt='about_mixer'
+                    className='mixer__img'
+                />
+
+                <p className='p__opensans'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, officiis!
+                    Eveniet libero eaque exercitationem veritatis!
+                </p>
+                <button
+                    type='button'
+                    className='custom__button'
+                >
+                    Know More
+                </button>
             </div>
         </div>
     </div>

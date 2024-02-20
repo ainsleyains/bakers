@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background: var(--color-black);
+
     padding: 1rem 2rem;
 }
 
@@ -90,6 +91,7 @@
 
     .app__navbar-smallscreen {
         display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -99,6 +101,6 @@
     }
 
     .app__navbar-logo img {
-        width: 100px;
+        width: 80px;
     }
 }
