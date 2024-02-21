@@ -13,8 +13,8 @@ const SpecialMenu = () => (
             <h1 className='headtext__cormorant'>Today's Special</h1>
         </div>
         <div className='app__specialMenu-menu'>
-            <div className='app__specialMenu-menu_wine flex__center'>
-                <p className='app__specialMenu_menu_heading'>Coffee</p>
+            <div className='app__specialMenu-menu_coffee flex__center'>
+                <p className='app__specialMenu-menu_heading'>Coffee</p>
                 <div className='app__specialMenu-menu_items'>
                     {data.coffees.map((coffee, i) => (
                         <MenuItem
@@ -32,8 +32,8 @@ const SpecialMenu = () => (
                     alt='menu'
                 />
             </div>
-            <div className='app__specialMenu-menu_wine flex__center'>
-                <p className='app__specialMenu_menu_heading'>Pastry</p>
+            <div className='app__specialMenu-menu_pastry flex__center'>
+                <p className='app__specialMenu-menu_heading'>Pastry</p>
                 <div className='app__specialMenu-menu_items'>
                     {data.pastries.map((pastry, i) => (
                         <MenuItem
