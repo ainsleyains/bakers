@@ -14,7 +14,7 @@ import menu from '../assets/menu.jpg';
 import overlaybg from '../assets/overlaybg.png';
 import mixer from '../assets/mixer.svg';
 import welcome from '../assets/welcome.png';
-import findus from '../assets/findus.jpg';
+import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
 import award01 from '../assets/award01.png';
 import award02 from '../assets/award02.png';
