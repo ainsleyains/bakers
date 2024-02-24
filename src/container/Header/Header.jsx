@@ -22,7 +22,7 @@ const Header = () => (
                 type='button'
                 className='custom__button'
             >
-                Explore Menu
+                <a href='#menu'>Explore Menu</a>
             </button>
         </div>
         <div className='app__wrapper_img'>
