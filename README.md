@@ -1,6 +1,6 @@
 # Baker's Pastry Shop
 
-Live Demo:
+Live Demo: https://bakerspastry.netlify.app/
 
 > Meticulously crafted to present a visual feast of the delectable treats.
 
