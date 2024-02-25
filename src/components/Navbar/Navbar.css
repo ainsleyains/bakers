@@ -80,7 +80,7 @@
 
 @media screen and (max-width: 2000px) {
     .app__navbar-logo img {
-        width: 200px;
+        width: 160px;
     }
 }
 
@@ -101,6 +101,6 @@
     }
 
     .app__navbar-logo img {
-        width: 80px;
+        width: 140px;
     }
 }
